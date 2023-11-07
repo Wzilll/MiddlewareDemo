@@ -1,0 +1,9 @@
+server:
+  port: 8088
+
+
+ribbon:
+  #可用服务的集合
+  listOfServers: http://localhost:9002,http://localhost:9005
+  #配置负载均衡的策略
+  NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule

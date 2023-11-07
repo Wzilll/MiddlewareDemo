@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.3.12.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>com.example</groupId>
+    <artifactId>hystrixDemo</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>hystrixDemo</name>
+    <description>hystrixDemo</description>
+    <properties>
+        <java.version>11</java.version>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+            <version>2.2.9.RELEASE</version>
+        </dependency>
+
+    </dependencies>
+
+    <distributionManagement>
+        <!--Release类型的托管资源库-->
+        <repository>
+            <!--id对应nexus仓库的id-->
+            <id>test_hosted</id>
+            <!--自定义名称-->
+            <name>Releases</name>
+            <!--仓库对应的URL地址-->
+            <url>http://192.168.60.222:8089/repository/test-hosted/</url>
+        </repository>
+        <!--Snapshot类型的托管资源库-->
+        <snapshotRepository>
+            <!--id对应nexus仓库的id-->
+            <id>test-snapshot-hosted</id>
+            <!--自定义名称-->
+            <name>Snapshot</name>
+            <!--仓库对应的URL地址-->
+            <url>http://192.168.60.222:8089/repository/test-snapshot-hosted/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+</project>

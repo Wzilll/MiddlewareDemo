@@ -1,0 +1,8 @@
+server:
+  port: 9089
+  name: ribbon
+  url: localhost:9000
+  key: ip
+
+ribbon:
+  loadBalanceName: weight

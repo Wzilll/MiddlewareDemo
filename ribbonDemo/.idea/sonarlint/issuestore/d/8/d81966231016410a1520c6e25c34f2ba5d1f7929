@@ -1,0 +1,41 @@
+
+E
+java:S3740b"/Provide the parametrized type for this generic.(Í×Û·
+E
+java:S3740b"/Provide the parametrized type for this generic.(Í×Û·
+{
+java:S1488h"`Immediately return this expression instead of assigning it to the temporary variable "response".(ãé¼’üÿÿÿÿ
+t
+java:S1104*"^Make applicationContext a static final constant or non-public and provide accessors if needed.(²ñº
+q
+java:S1104/"VMake serverList a static final constant or non-public and provide accessors if needed.(œ ªÓøÿÿÿÿ
+N
+java:S1444*"8Make this "public static applicationContext" field final(²ñº
+h
+java:S2259R"MA "NullPointerException" could be thrown; "loadBalanceName" is nullable here.(õˆûÿÿÿÿ
+\
+java:S2259"FA "NullPointerException" could be thrown; "getBody()" can return null.(ÊÔš
+e
+java:S2259Z"JA "NullPointerException" could be thrown; "newAuthority" is nullable here.(¡­ë—şÿÿÿÿ
+G
+java:S3599/",Use another way to initialize this instance.(œ ªÓøÿÿÿÿ
+t
+java:S1171/"YMove the contents of this initializer to a standard constructor or to field initializers.(œ ªÓøÿÿÿÿ
+P
+java:S22097"5Change this instance-reference to a static reference.(æªù€ÿÿÿÿÿ
+Q
+java:S26968"6Make the enclosing method "static" or remove this set.(ÎÓôÍùÿÿÿÿ
+P
+java:S22098"5Change this instance-reference to a static reference.(ÎÓôÍùÿÿÿÿ
+S	java:S106K"9Replace this use of System.out or System.err by a logger.(Ç¤¤üúÿÿÿÿ
+S	java:S106T"9Replace this use of System.out or System.err by a logger.(²ò´Ìúÿÿÿÿ
+N	java:S106W"9Replace this use of System.out or System.err by a logger.(èñƒÓ
+N	java:S106d"9Replace this use of System.out or System.err by a logger.(Ş†âÕ
+œ
+java:S1186y"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(—µ±şıÿÿÿÿ
+:
+java:S2119™"Save and re-use this "Random".(í¢şÿÿÿÿ
+x
+java:S1128"bRemove this unused import 'org.springframework.cloud.client.loadbalancer.LoadBalancerInterceptor'.(‡—ÅÏ
+y
+java:S1128"^Remove this unused import 'org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClient'.(²§—×øÿÿÿÿ

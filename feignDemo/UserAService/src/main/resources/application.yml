@@ -1,0 +1,18 @@
+server:
+  port: 8001
+  name: A
+  serviceIp: localhost:8002
+  url: localhost:9000
+  key: ip
+spring:
+  feign:
+    clients:
+      basePackage: com.example.useraservice.service
+#  zipkin:
+#    base-url: http://localhost:9411
+#  sleuth:
+#    sampler:
+#      probability: 1
+ribbon:
+  loadBalanceName: polling
+

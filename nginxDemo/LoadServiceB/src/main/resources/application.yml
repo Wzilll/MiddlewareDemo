@@ -1,0 +1,9 @@
+spring:
+    rebbitmq:
+      host: 114.115.170.214
+      port: 15672
+      virtual: /
+      username: admin
+      password: admin
+server:
+  port: 8005

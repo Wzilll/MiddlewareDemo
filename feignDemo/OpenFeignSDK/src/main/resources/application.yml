@@ -1,0 +1,6 @@
+server:
+  serviceIp: localhost:8002
+spring:
+  feign:
+    clients:
+      basePackage: com.example.openfeigndemo.config

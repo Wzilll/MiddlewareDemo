@@ -1,0 +1,3 @@
+server:
+  port: 8005
+  CDNIp: localhost:8006

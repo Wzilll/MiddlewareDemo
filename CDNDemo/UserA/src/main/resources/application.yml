@@ -1,0 +1,4 @@
+server:
+  port: 8001
+  name: www.wzl.com
+  cdn: localhost:8005

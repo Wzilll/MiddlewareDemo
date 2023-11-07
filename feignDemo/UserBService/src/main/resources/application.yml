@@ -1,0 +1,5 @@
+server:
+  port: 8002
+  name: B
+  url: localhost:9000
+  key: ip

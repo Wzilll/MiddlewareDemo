@@ -1,0 +1,15 @@
+
+\
+java:S2259"AA "NullPointerException" could be thrown; "map" is nullable here.(¶†Çşÿÿÿÿ
+f
+java:S2095%"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(«Şó°
+i
+java:S2095$"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(›Àş…şÿÿÿÿ
+h
+java:S2095."MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(Ä°”åûÿÿÿÿ
+e
+java:S2095/"OUse try-with-resources or close this "ObjectInputStream" in a "finally" clause.(´¢ß
+P
+java:S1118":Add a private constructor to hide the implicit public one.(Á¬Àä
+:
+java:S11684"$Return an empty map instead of null.(¥¹ï
